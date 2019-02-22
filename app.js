@@ -21,7 +21,7 @@ switch (comando) {
         for (let tarea of listado) {
             console.log('=====por Hacer====='.green);
             console.log(tarea.descripcion);
-            console.log('Estado', tarea.completado);
+            console.log('Estado', tarea.completado ? 'Completada' : 'Incompleta');
             console.log('===================='.green);
         }
 
